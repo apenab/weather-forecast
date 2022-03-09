@@ -8,7 +8,7 @@ import { OpenweatherService } from './services/openweather/openweather.service';
 @Module({
   imports: [
     ConfigModule.forRoot({
-      envFilePath: ['.env.development.local'],
+      envFilePath: ['.env.development.local', '.env'],
     }),
   ],
   controllers: [AppController],

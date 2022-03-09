@@ -1,4 +1,4 @@
-# Weather forecast API
+# Example of using the Openweather API with nestjs
 
 ## Installation
 
@@ -18,3 +18,5 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+
+## open the following URL: http://localhost:3000/api/
